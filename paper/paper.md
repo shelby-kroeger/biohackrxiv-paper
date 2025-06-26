@@ -114,7 +114,7 @@ We have built a unified bioactivity and omics dataset, established a user interf
 
 Future work will include tracking down molecular subtype driver mutation gene data for colorectal cancer, ovarian cancer, NSCLC, and bladder cancer. The OncoMATCH therapeutic matching capabilities will be expanded to include the subtypes of these specific cancers, as was done in the initial work with colorectal cancer. By applying the CPS and GPS gene scoring, we could identify potentially effective therapeutic combinations to target cancer subtypes for treatment. Alternatively, similarity scoring of therapeutics could be expanded upon to predict effective drug combinations - including protein-level responses across compounds. 
 
-## Jupyter notebooks, GitHub repositories and data repositories
+## GitHub repositories
 
 GitHub Repository: 
 
