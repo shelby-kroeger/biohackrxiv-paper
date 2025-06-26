@@ -32,7 +32,7 @@ affiliations:
  - name: NVIDIA, CA, US
    index: 5
 date: 25 June 2025
-bibliography: paper.bib
+bibliography: [paper.bib](https://github.com/shelby-kroeger/biohackrxiv-paper/edit/main/paper/paper.bib)
 authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
 group: BioHackrXiv
 event: Bio IT World Hackathon 2025
@@ -114,7 +114,7 @@ We have built a unified bioactivity and omics dataset, established a user interf
 
 Future work will include tracking down molecular subtype driver mutation gene data for colorectal cancer, ovarian cancer, NSCLC, and bladder cancer. The OncoMATCH therapeutic matching capabilities will be expanded to include the subtypes of these specific cancers, as was done in the initial work with colorectal cancer. By applying the CPS and GPS gene scoring, we could identify potentially effective therapeutic combinations to target cancer subtypes for treatment. Alternatively, similarity scoring of therapeutics could be expanded upon to predict effective drug combinations - including protein-level responses across compounds. 
 
-## GitHub repositories
+## Jupyer Notebooks and GitHub repositories
 
 GitHub Repository: 
 
@@ -148,11 +148,11 @@ Finally, we would like to thank the members of the Biohackathon Europe 2022 grou
 
 ### Disclosures 
 
-Ben Busby is a full time employee of NVIDIA. 
-Manasi is a full time employee of Takeda Pharmaceuticals. 
-Shelby is a full time employee of AbbVie Inc. 
-Lisa is a full time employee of Momentum Biotechnologies. 
-Stanislaw is a full time employee and founder of Deepflare.
+BB is a full time employee of NVIDIA. 
+MG is a full time employee of Takeda Pharmaceuticals. 
+SK is a full time employee of AbbVie Inc. 
+LB is a full time employee of Momentum Biotechnologies. 
+SG is a full time employee and founder of Deepflare.
 
 ## References
 
