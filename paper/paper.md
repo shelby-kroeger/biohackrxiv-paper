@@ -38,6 +38,7 @@ group: BioHackrXiv
 event: Bio IT World Hackathon 2025
 biohackathon_name: Bio IT World Hackathon 2025
 biohackathon_url: blah
+biohackathon_location: Boston, MA, US
 ---
 
 
