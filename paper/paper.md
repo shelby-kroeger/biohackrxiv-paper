@@ -21,15 +21,15 @@ authors:
     affiliation: 5
 
 affiliations:
- - name: AbbVie Inc., address, city, country
+ - name: AbbVie Inc., North Chicago, IL, US
    index: 1
- - name: Momentum Biotechnologies, address, city, country
+ - name: Momentum Biotechnologies, MA, US
    index: 2
- - name: Takeda Pharmaceuticals, address, city, country
+ - name: Takeda Pharmaceuticals, MA, US
    index: 3
- - name: Deepflare, address, city, country
+ - name: Deepflare, address, Warsaw, Poland
    index: 4
- - name: NVIDIA, address, city, country
+ - name: NVIDIA, address, CA, US
    index: 5
 date: 25 June 2025
 bibliography: paper.bib
@@ -37,6 +37,7 @@ authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
 group: BioHackrXiv
 event: Bio IT World Hackathon 2025
 ---
+
 *co-first authors
 
 ## Abstract
@@ -78,7 +79,9 @@ Figure 1. Overlap of drugs shared between DrugCentral (Avram et al. 2023), LINCS
 ### Establishing a User Interface for OncoMatch
 
 We developed an interactive web application as part of the OncoMATCH framework to provide intuitive exploration and prioritization of drug candidates. The architecture of the application is outlined in Figure 2A, which shows how user input is processed through harmonized backend datasets to generate dynamic visualizations and outputs. Using our integrated dataset on target–drug activities, transcriptomic perturbations, and proteomic responses, the application provides public access to query multi-omic drug profiles in a cancer-type–specific context.
+
 Users can begin by selecting a cancer type-such as bladder, ovarian, colon or NSCLC. These options were selected because they are known to exhibit molecular subtypes, which can influence drug response and therapeutic strategies. (McConkey et al. 2018, Rudin et al. 2019, Guinney et al. 2015, Tothill et al. 2008), For each cancer type, we curated a set of driver genes using data from the COSMIC database, (Sondka et al. 2018) forming the basis for our downstream drug-gene interaction analysis. 
+
 Upon selection, the application displays the drug bioactivity panel (Figure 2B), which visualizes experimentally derived interactions between drugs in the DrugCentral database and the cancer-associated genes. This view includes two radar plots that summarize reported Kd or IC50 values for compounds across the curated driver genes associated with the selected cancer type. Lower Kd values indicate stronger binding affinity, while lower IC50 values reflect higher potency. These plots provide a comparative view of compound bioactivity, emphasizing those with strong target engagement and potent inhibitory effects across cancer-type-specific driver genes.
 
 ![Figure 2](figure2.png)
@@ -88,9 +91,13 @@ Figure 2. OncoMatch Web Application. (A) Overview of the OncoMatch workflow, inc
 ### Exploring Drug Combinations and Mechanistic Similarity Using OncoMatch
 
 The OncoMatch interface includes interactive modules for investigating compound similarity across transcriptomic, proteomic, chemical structure contexts, facilitating hypothesis generation around potential drug combinations and shared mechanisms of action. These modules enable users to inspect how selected compounds relate to others based on molecular response profiles or structural features—providing a broader view of potential functional analogs or complementary therapies.
+
 After establishing compounds with lower Kd and IC50 values for cancer-type-specific targets (Figure 2B), users can explore additional panels to examine multi-omic and structural similarities across compounds. The transcriptomics panel (Figure 3A) displays the top ten drugs with the highest gene expression profile similarity, grouped by cell line. This permits users to compare transcriptional responses both within and across cell lines, helping identify compounds with cell line-specific effects or broadly conserved signatures. 
+
 Next, the proteomics panel (Figure 3B) highlights similarity between the protein-level effects of compound treatments in the HCT116 cell line. This section shows the top ten drugs with the most similar proteomic response profiles to a selected compound, allowing users to analyze compounds with analogous multi-omic effects that may serve as candidates for combinatorial therapies targeting shared pathways or mechanisms.
+
 Finally, the structure panel (Figure 3C) presents a heatmap of Tanimoto similarity scores between a selected compound and others identified through transcriptomic or proteomic similarity. Tanimoto similarity compares molecular fingerprints-bitwise representations of structural features-and ranges from 0 (no shared features) to 1 (identical encoded structural features). (Bajusz et al. 2015) This view equips users to assess structure-activity relationships, offering a foundation for exploring whether structurally similar compounds exhibit shared molecular responses.
+
 This data can be easily accessed in the app here - https://oncomatchapp-precision-medicine.streamlit.app.  
 
 ![Figure 3](figure3.png)
@@ -100,19 +107,21 @@ Figure 3. Compound similarity views within the OncoMatch web application. A) Bar
 ## Discussion and Future Work
 
 We have built a unified bioactivity and omics dataset, established a user interface for OncoMATCH, and explored drug combinations and mechanistic similarity using the established platform. Unfortunately, the platform we have built is limited to data of broad cancer types including colorectal cancer, NSCLC, bladder cancer, and ovarian cancer as opposed to more specific data on their subtypes. This was due to resource limitations (namely time and data), but we plan to address this in future work.
+
 Future work will include tracking down molecular subtype driver mutation gene data for colorectal cancer, ovarian cancer, NSCLC, and bladder cancer. The OncoMATCH therapeutic matching capabilities will be expanded to include the subtypes of these specific cancers, as was done in the initial work with colorectal cancer. By applying the CPS and GPS gene scoring, we could identify potentially effective therapeutic combinations to target cancer subtypes for treatment. Alternatively, similarity scoring of therapeutics could be expanded upon to predict effective drug combinations - including protein-level responses across compounds. 
 
 ## Jupyter notebooks, GitHub repositories and data repositories
 
 GitHub Repository: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs.git
-Preprocess raw data: 
-https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/1_preprocess_raw_data.ipynb
-Calculate drug score: 
-https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/2_calculate_drug_score.ipynb
-Calculate Structure Similarity:
-https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/3_calculate_structure_similarity.ipynb
-DeepCoverageMOA:
-https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/4_deepcoveragemoa.ipynb
+
+Preprocess raw data: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/1_preprocess_raw_data.ipynb
+
+Calculate drug score: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/2_calculate_drug_score.ipynb
+
+Calculate Structure Similarity: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/3_calculate_structure_similarity.ipynb
+
+DeepCoverageMOA: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/4_deepcoveragemoa.ipynb
+
 OncoMatch WebApp: https://oncomatchapp-precision-medicine.streamlit.app/
 
 ## Acknowledgements
@@ -124,7 +133,11 @@ Finally, we would like to thank the members of the Biohackathon Europe 2022 grou
 ### Disclosures 
 
 Ben Busby is a full time employee of NVIDIA.
+
 Manasi is a full time employee of Takeda Pharmaceuticals.
-Shelby is a full time employee of AbbVie.
+
+Shelby is a full time employee of AbbVie Inc.
+
 Lisa is a full time employee of Momentum Biotechnologies.
+
 Stanislaw is a full time employee and founder of Deepflare.
