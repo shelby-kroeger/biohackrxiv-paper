@@ -27,9 +27,9 @@ affiliations:
    index: 2
  - name: Takeda Pharmaceuticals, MA, US
    index: 3
- - name: Deepflare, address, Warsaw, Poland
+ - name: Deepflare, Warsaw, Poland
    index: 4
- - name: NVIDIA, address, CA, US
+ - name: NVIDIA, CA, US
    index: 5
 date: 25 June 2025
 bibliography: paper.bib
