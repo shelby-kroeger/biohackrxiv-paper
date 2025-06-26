@@ -31,8 +31,8 @@ affiliations:
    index: 4
  - name: NVIDIA, CA, US
    index: 5
+cito-bibliography: paper.bib
 date: 25 June 2025
-bibliography: https://github.com/shelby-kroeger/biohackrxiv-paper/edit/main/paper/paper.bib
 authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
 group: BioHackrXiv
 event: Bio IT World Hackathon 2025
@@ -42,7 +42,7 @@ biohackathon_location: Boston, MA, US
 ---
 
 
-/*co-first authors
+*co-first authors
 
 ## Abstract
 
