@@ -42,7 +42,7 @@ biohackathon_location: Boston, MA, US
 ---
 
 
-*co-first authors
+/*co-first authors
 
 ## Abstract
 
