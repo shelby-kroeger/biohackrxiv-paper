@@ -116,17 +116,23 @@ Future work will include tracking down molecular subtype driver mutation gene da
 
 ## Jupyter notebooks, GitHub repositories and data repositories
 
-GitHub Repository: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs.git
+GitHub Repository: 
+https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs.git
 
-Preprocess raw data: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/1_preprocess_raw_data.ipynb
+Preprocess raw data: 
+https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/1_preprocess_raw_data.ipynb
 
-Calculate drug score: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/2_calculate_drug_score.ipynb
+Calculate drug score: 
+https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/2_calculate_drug_score.ipynb
 
-Calculate Structure Similarity: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/3_calculate_structure_similarity.ipynb
+Calculate Structure Similarity: 
+https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/3_calculate_structure_similarity.ipynb
 
-DeepCoverageMOA: https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/4_deepcoveragemoa.ipynb
+DeepCoverageMOA: 
+https://github.com/BioITHackathons/DrugCentral-Based-Review-and-Profiles-of-Targets-for-Approved-Drugs/blob/main/notebooks/4_deepcoveragemoa.ipynb
 
-OncoMatch WebApp: https://oncomatchapp-precision-medicine.streamlit.app/
+OncoMatch WebApp: 
+https://oncomatchapp-precision-medicine.streamlit.app/
 
 ## Acknowledgements
 
