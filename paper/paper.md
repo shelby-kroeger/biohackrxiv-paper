@@ -32,7 +32,7 @@ affiliations:
  - name: NVIDIA, CA, US
    index: 5
 date: 25 June 2025
-bibliography: [paper.bib](https://github.com/shelby-kroeger/biohackrxiv-paper/edit/main/paper/paper.bib)
+bibliography: https://github.com/shelby-kroeger/biohackrxiv-paper/edit/main/paper/paper.bib
 authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
 group: BioHackrXiv
 event: Bio IT World Hackathon 2025
