@@ -38,6 +38,7 @@ group: BioHackrXiv
 event: Bio IT World Hackathon 2025
 ---
 
+
 *co-first authors
 
 ## Abstract
@@ -132,12 +133,8 @@ Finally, we would like to thank the members of the Biohackathon Europe 2022 grou
 
 ### Disclosures 
 
-Ben Busby is a full time employee of NVIDIA.
-
-Manasi is a full time employee of Takeda Pharmaceuticals.
-
-Shelby is a full time employee of AbbVie Inc.
-
-Lisa is a full time employee of Momentum Biotechnologies.
-
+Ben Busby is a full time employee of NVIDIA. 
+Manasi is a full time employee of Takeda Pharmaceuticals. 
+Shelby is a full time employee of AbbVie Inc. 
+Lisa is a full time employee of Momentum Biotechnologies. 
 Stanislaw is a full time employee and founder of Deepflare.
