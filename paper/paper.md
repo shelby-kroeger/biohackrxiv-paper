@@ -32,6 +32,7 @@ affiliations:
  - name: NVIDIA, CA, US
    index: 5
 date: 25 June 2025
+cito-bibliography: paper.bib
 bibliography: paper.bib
 authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
 group: BioHackrXiv
@@ -156,5 +157,4 @@ Stanislaw is a full time employee and founder of Deepflare.
 
 ## References
 
-\bibliography{paper}
 
