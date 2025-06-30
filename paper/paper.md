@@ -31,8 +31,10 @@ affiliations:
    index: 4
  - name: NVIDIA, CA, US
    index: 5
- - name: *co-first authors
-   index: 
+
+author_notes:
+  - "*co-first authors"
+   
 cito-bibliography: paper.bib
 date: 25 June 2025
 authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
