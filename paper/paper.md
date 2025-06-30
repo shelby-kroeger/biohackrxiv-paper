@@ -32,8 +32,7 @@ affiliations:
  - name: NVIDIA, CA, US
    index: 5
 
-author_notes:
-  - "*co-first authors"
+note: "*co-first authors"
    
 cito-bibliography: paper.bib
 date: 25 June 2025
