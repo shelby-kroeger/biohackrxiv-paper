@@ -68,7 +68,7 @@ Choosing the right treatment for cancer patients is becoming more personalized t
 
 While earlier research has shown that combining genetic information with drug activity data can help suggest potential treatments, these methods have mostly been limited to small studies or specific cancers. There is still a major need for a broader, scalable system that can help doctors and researchers match genetic mutations to targeted therapies across different cancer types, and do so in a way that is evidence-based and practical for clinical decision-making.
 
-In this project, we are addressing this gap by expanding previous methods (Kubica et al., 2022)[citesAsAuthority:kubica_validating_2023], developing new scoring systems to measure how precisely drugs target cancer mutations, and creating tools utilizing open-source data to better support treatment selection. 
+In this project, we are addressing this gap by expanding previous methods (Kubica et al., 2022)[@kubica_validating_2023], developing new scoring systems to measure how precisely drugs target cancer mutations, and creating tools utilizing open-source data to better support treatment selection. 
 Our goal is to make cancer therapy more data-driven, personalized, and effective for patients across a wider range of cancers.
 
 ## Methods
