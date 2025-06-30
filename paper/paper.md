@@ -32,7 +32,6 @@ affiliations:
  - name: NVIDIA, CA, US
    index: 5
 
-authors_short: "*Shelby R. Kroeger, Lisa M. Boatner, and Manasi Ghogare contributed equally to this work.*"
 cito-bibliography: paper.bib
 date: 25 June 2025
 authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
@@ -150,6 +149,10 @@ https://oncomatchapp-precision-medicine.streamlit.app/
 The results here are in large part based on data found in Drug Central: https://drugcentral.org/
 Thank you to the organizers of the BioIT World Conference and Expo Hackathon 2025- particularly Allissa Dillman of the Common Fund Data Ecosystem (CFDE) for making it all happen!
 Finally, we would like to thank the members of the Biohackathon Europe 2022 group who did foundational work and highlighted the path for this project: Jędrzej Kubica, Emerson Huitt, Yusuke Suita, Amanda S. Khoo, Hyonyoung Shin, David Enoma, Nick Giangreco, and Ben Busby. 
+
+## Author Contributions
+
+Shelby R. Kroeger, Lisa M. Boatner, and Manasi Ghogare contributed equally to this work and are considered co-first authors.
 
 ### Disclosures 
 
