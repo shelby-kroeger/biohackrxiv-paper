@@ -92,7 +92,6 @@ Users can begin by selecting a cancer type-such as bladder, ovarian, colon or NS
 
 Upon selection, the application displays the drug bioactivity panel (Figure 2B), which visualizes experimentally derived interactions between drugs in the DrugCentral database and the cancer-associated genes. This view includes two radar plots that summarize reported Kd or IC50 values for compounds across the curated driver genes associated with the selected cancer type. Lower Kd values indicate stronger binding affinity, while lower IC50 values reflect higher potency. These plots provide a comparative view of compound bioactivity, emphasizing those with strong target engagement and potent inhibitory effects across cancer-type-specific driver genes.
 
-![Figure 2](figure2.png)
 ![Figure 2a](figure2a.png)
 ![Figure 2b](figure2b.png)
 
@@ -110,7 +109,6 @@ Finally, the structure panel (Figure 3C) presents a heatmap of Tanimoto similari
 
 This data can be easily accessed in the app here - https://oncomatchapp-precision-medicine.streamlit.app.  
 
-![Figure 3](figure3.png)
 ![Figure 3a](figure3a.png)
 ![Figure 3b](figure3b.png)
 ![Figure 3c](figure3c.png)
