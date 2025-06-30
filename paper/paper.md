@@ -43,7 +43,7 @@ biohackathon_name: Bio IT World Hackathon 2025
 biohackathon_url: https://www.bio-itworldexpo.com/fair-data-hackathon
 biohackathon_location: Boston, MA, US
 ---
-\*These authors contributed equally to this work.
+
 ## Abstract
 
 Advances in precision medicine are reshaping cancer treatment by tailoring therapies to a patient’s specific genetic profile. Despite this, matching cancer mutations to effective drugs remains a complex task due to variability in mutations across cancer types and limited tools for practical clinical application. In this project, initially developed during the BioIT Hackathon 2025, we created OncoMatch—an open-data-powered web application designed to bridge this gap by integrating genomic, transcriptomic, proteomic, and drug-target interaction data to support therapy selection.
