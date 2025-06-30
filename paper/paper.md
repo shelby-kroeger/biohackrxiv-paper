@@ -55,15 +55,20 @@ biohackathon_location: Boston, MA, US
 ## Abstract
 
 Advances in precision medicine are reshaping cancer treatment by tailoring therapies to a patient’s specific genetic profile. Despite this, matching cancer mutations to effective drugs remains a complex task due to variability in mutations across cancer types and limited tools for practical clinical application. In this project, initially developed during the BioIT Hackathon 2025, we created OncoMatch—an open-data-powered web application designed to bridge this gap by integrating genomic, transcriptomic, proteomic, and drug-target interaction data to support therapy selection.
+
 Building on prior work in colorectal cancer, we expanded our scope to include bladder, ovarian, and non-small cell lung cancer (NSCLC), using the COSMIC and DrugCentral databases to identify relevant gene mutations and therapeutics. We developed two novel scoring systems—the Cancer Precision Score (CPS) and Gene Precision Score (GPS)—to evaluate drug specificity and potential effectiveness. Using data from DrugCentral, LINCS L1000, and DeepCoverMOA, we created a unified bioactivity dataset for over 4,000 drugs, including measures such as IC50 and Kd values.
+
 The OncoMatch platform features interactive tools to visualize drug bioactivity, assess multi-omic and structural similarity among compounds, and explore potential drug combinations. Users can query drugs by cancer type and gene mutation, generating insights into the most promising therapies and alternatives.
+
 Our open source approach not only democratizes access to high quality bioinformatics tools but also encourages data driven, personalized cancer care. Future directions include refining subtype level predictions and improving the platform’s utility for combinatorial therapy planning.  We have developed a streamlit app to make it easy to access this data.  That app can be found at https://oncomatchapp-precision-medicine.streamlit.app.
 
 ## Introduction 
 
 Choosing the right treatment for cancer patients is becoming more personalized thanks to advances in precision medicine. By looking closely at the genetic mutations in a patient's tumor, doctors can now select therapies that are more likely to work for that specific cancer. However, even with powerful genetic tools available, it is still very difficult to match a patient's unique cancer profile to the best drug or drug combination. The process is complicated because cancer mutations vary widely, and many existing approaches are either focused on only one cancer type or are not built for real-world clinical use.
+
 While earlier research has shown that combining genetic information with drug activity data can help suggest potential treatments, these methods have mostly been limited to small studies or specific cancers. There is still a major need for a broader, scalable system that can help doctors and researchers match genetic mutations to targeted therapies across different cancer types, and do so in a way that is evidence-based and practical for clinical decision-making.
-In this project, we are addressing this gap by expanding previous methods (Kubica et al., 2022), developing new scoring systems to measure how precisely drugs target cancer mutations, and creating tools utilizing open-source data to better support treatment selection. 
+
+In this project, we are addressing this gap by expanding previous methods (Kubica et al., 2022)[@citesAsAuthority:kubica_validating_2023], developing new scoring systems to measure how precisely drugs target cancer mutations, and creating tools utilizing open-source data to better support treatment selection. 
 Our goal is to make cancer therapy more data-driven, personalized, and effective for patients across a wider range of cancers.
 
 ## Methods
@@ -82,6 +87,7 @@ The Gene Precision Score measures how specifically a drug targets a particular g
 
 ### Building a Unified Bioactivity and Omics Dataset for OncoMatch
 DrugCentral provides integrated data on drug structures, targets, mechanisms, and regulatory status for FDA- and globally approved compounds. Over the years, it has compiled target–drug interaction data—including IC50, EC50, Kd, and Ki values—for over 3365 UniProt proteins and 4927 drugs. (Avram et al. 2023) More recently, DrugCentral incorporated transcriptomic drug perturbation data from the LINCS L1000 dataset, (Subramanian et al. 2017), which measured changes in the expression of 978 “landmark” genes following treatment with 19811 compounds. Since the release of the DrugCentral 2023 update, a complementary study-DeepCoverMOA (Mitchell et al. 2023)-quantified drug-induced changes at the proteomic level using mass spectrometry to capture protein-level responses in across 875 compounds. 
+
 Together, we parsed and mapped these datasets to generate the input data for our OncoMATCH framework. Of the 4099 total drugs with SMILES cataloged in DrugCentral (accessed April 2025), 1457 were matched to compounds profiled in LINCS L1000 (accessed April 2025) and 207 to those in DeepCoverMOA (Figure 1). 
 
 ![Figure 1](figure1.png)
