@@ -33,7 +33,6 @@ affiliations:
    index: 5
 
 authors_short: "*Shelby R. Kroeger, Lisa M. Boatner, and Manasi Ghogare contributed equally to this work.*"
-
 cito-bibliography: paper.bib
 date: 25 June 2025
 authors_short: Busby et al. (2025) Bio IT World Hackathon 2025
